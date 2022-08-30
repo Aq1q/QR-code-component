@@ -55,9 +55,61 @@ table {
 
 /* Style */
 
+body {
+	background-color: var(--light-gray);
 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
-/* footer */
+	height: 100vh;
+}
+
+/* Mobile style */
+
+.container {
+	font-family: 'Outfit', 'sans-serif';
+	flex-grow: 1;
+	width: 80%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.qr-box {
+	background-color: var(--white);
+	border-radius: 15px;
+	line-height: normal;
+	padding: 20px;
+	width: 80%;
+
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: center;
+}
+
+.qr-box img {
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+.qr-box h1 {
+	color: var(--dark-blue);
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.qr-box p {
+	color: var(--grayish-blue);
+	font-size: 15px;
+}
+
+/* Desktop style */
+
+/* Footer */
 .attribution {
     font-size: 11px;
     text-align: center;
